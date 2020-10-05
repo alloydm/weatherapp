@@ -67,12 +67,12 @@ main
 .current .weather
 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 15px;
   font-style: italic;
 }
 .current .hi-low
 {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 900;
 }
