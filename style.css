@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body
+{
+  font-family: 'Montserrat',sans-serif;
+  background-image: url('storm1.jpg');
+  background-size: cover;
+  background-position: top-center;
+}
+.app-wrap
+{
+  display: flex;
+  flex-direction: column;
+
+}
+header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+  color: #000000
+
+}
+header input
+{
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  color: #000000;
+  font-size: 19px;
+}
+main
+{
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+.location .city
+{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location .date
+{
+  font-size: 18px;
+}
+.current .temp
+{
+  font-size: 102px;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.current .weather
+{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.current .hi-lo
+{
+  font-size: 24px;
+  font-weight: 500;
+}
