@@ -7,8 +7,8 @@ body
 {
   font-family: 'Montserrat',sans-serif;
   background-image: url('storm1.jpg');
-  background-size: cover;
-  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
 
 }
 .app-wrap
